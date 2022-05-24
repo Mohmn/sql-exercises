@@ -16,7 +16,7 @@ https://www.hackerrank.com/challenges/the-report/problem?isFullScreen=true
 
 -- Write a query to help Eve.
 
--- solution
+-- solutionn
 
 select hack.hacker_id,hack.name from submissions as sub
     inner join hackers as hack on hack.hacker_id = sub.hacker_id
